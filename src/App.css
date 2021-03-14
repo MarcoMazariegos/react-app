@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-color:   #212122 ;
+}
+.App-header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.Description{
+  max-width: 600px;
+  height: 8rem;
+  margin: auto;
+}
+.Description h1{
+  color: #fff;
+  margin-top: 2rem;
+}
+.Description p{
+  color:darkgray
+}
+.Button-theme{
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+}
+.Button-theme p{
+  color: #fff;
+}
+#barra{
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  background: blanchedalmond;
+  margin-left: 20%;
+}
+.switch{
+  width: 20px;
+  height: 20px;
+  background: black;
+  border: 10px black;
+  border-radius: 50%;
+  cursor: pointer;
+  animation-duration: 1s;
+  animation-fill-mode:backwards;
+}
+.switch:hover{
+  box-shadow: 1px 1px 12px black;
+}
+@keyframes deslizamiento{
+  0%{margin-left: -1%;}
+  80%{margin-left: 50%;}
+}
+.Followers{
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.Facebook-followers, .Twitter-followers, .Instagram-followers{
+  width: 30%;
+  height: 250px;
+  margin: auto;
+  background-color: #0a0c14;
+  color: #fff;
+  text-align: center;
+}
+.Line-top1{
+  width: 100%;
+  height: 4px;
+  background-color:  #2941c9 ;
+}
+.Line-top2{
+  width: 100%;
+  height: 4px;
+  background-color:  #4e68fc ;
+}
+.Line-top3{
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(45deg, #515BD4 15%,  #8134AF 30%, #DD2A7B 45%, #FEDA77 70%, #F58529 100%);
+}
+.UserName{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+.facebook-logo{
+  width: 45px;
+  margin-left: 30%;
+}
+.instagram-logo{
+  width: 45px;
+  margin-left: 30%;
+}
+.twitter-logo{
+  width: 45px;
+  margin-left: 30%;
+}
+.arroba{
+  padding-left: 0.5rem;
+  padding-top: 0.8rem;
+}
+.Followers h1{
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+.follows{
+  color:darkgray;
+  padding-top: 1.5rem;
+}
+.Followers h5{
+  color: lime;
+  padding-top: 0.5rem;
+}
+.resumen{
+  width: 100%;
+  height: auto;
+}
+.contenedor-resumen{
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+}
+.contenedor-resumen h2{
+  color: darkgray;
+  margin-left: 1.1rem;
+  margin-top: 1rem;
+}
+.grilla{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.f-views, .f-likes, .t-retweets, .t-likes, .i-likes, .i-views{
+  width: 30%;
+  height: 8rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: #0a0c14;              
+}
+.capsula1, .capsula3{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.capsula1 p, .capsula3{
+  color: darkgray;
+  margin-left: 10%;
+}
+.capsula2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.facebook-logo2{
+  width: 35px;
+  margin-left: 35%;
+}
+.capsula2 h2{
+  color: #fff;
+  margin-left: 10%;
+}
+.capsula2 p{
+  font-size: 12px;
+  color: lime;
+  margin-left: 60%;
+  margin-top: 1.2rem ;
+}
+.capsula4{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.capsula4 h2{
+  color: #fff;
+  margin-left: 10%;
+}
+.capsula4 p{
+  font-size: 12px;
+  color: red;
+  margin-left: 60%;
+  margin-top: 1.2rem ;
+}
+.twitter-logo2{
+  width: 35px;
+  margin-left: 45%;
+}
